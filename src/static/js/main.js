@@ -1,3 +1,8 @@
+import { SimpleSoundSource } from './simple_sound_source.js'
+import { ToneDeafTuning } from './tone_deaf_tuning.js'
+import { MusicalInstrument } from './musical_instrument.js'
+
+
 function main() {
 
     let soundSource = new SimpleSoundSource();

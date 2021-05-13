@@ -1,4 +1,6 @@
-class ToneDeafTuning extends Tuning {
+import { Tuning } from './tuning.js'
+
+export class ToneDeafTuning extends Tuning {
     constructor() {
         super();
         this.baseFrequency = 440;  // In Hz. aka A 440

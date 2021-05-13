@@ -1,3 +1,3 @@
-class Tuning {
+export class Tuning {
     getFrequency(note) {}
 }

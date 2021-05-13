@@ -1,3 +1,3 @@
-class SoundSource {
+export class SoundSource {
     playFrequency(frequency) {}
 }

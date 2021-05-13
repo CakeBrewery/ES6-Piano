@@ -1,4 +1,6 @@
-class SimpleSoundSource extends SoundSource {
+import { SoundSource } from './sound_source.js'
+
+export class SimpleSoundSource extends SoundSource {
     constructor() {
         super();
         this.volume = 0.7;  // 70 %

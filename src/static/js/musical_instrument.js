@@ -1,4 +1,4 @@
-class MusicalInstrument {
+export class MusicalInstrument {
     constructor(soundSource, tuning) {
         this.soundSource = soundSource;
         this.tuning = tuning;
