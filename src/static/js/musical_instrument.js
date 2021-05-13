@@ -6,6 +6,6 @@ export class MusicalInstrument {
 
     playNote(note) {
         let frequency = this.tuning.getFrequency(note);
-        this.soundSource.playFrequency(frequency);
+        return this.soundSource.playFrequency(frequency);
     }
 }

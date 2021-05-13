@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.keyboard {
+    overflow-x: scroll;
+}
+.keyboard .note {
+    list-style: none;
+    position: relative;
+    float: left;
+    overflow: auto;
+}
+.keyboard .note {
+    border-radius:0 0 3px 3px;
+}
+.keyboard .note-white {
+    background-color: #fff;
+    height: 16em;
+    width: 4em;
+    z-index: 1;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+.keyboard .note-white:last-child {
+    border-right: 1px solid #bbb;
+}
+.keyboard .note-white.active {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2) inset;
+    background: linear-gradient(to bottom, #fff 0%, #CCC 100%);
+}
+.keyboard .note-black {
+    background-color: #222;
+    height: 8em;
+    width: 2em;
+    margin: 0 -1em;
+    z-index: 2;
+    border: 1px solid #000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.keyboard .note-black.active {
+    background: linear-gradient(to bottom, #555 0%, #222 100%);
+    box-shadow: none; 
+}
+.keyboard .note:first-child {
+    border-radius: 5px 0 5px 5px;
+}
+.keyboard .note:last-child {
+    border-radius: 0 5px 5px 5px;
+}

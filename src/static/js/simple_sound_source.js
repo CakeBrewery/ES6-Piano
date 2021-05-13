@@ -29,6 +29,11 @@ export class SimpleSoundSource extends SoundSource {
         oscillator.connect(noteVolume);
 
         oscillator.start();
-        oscillator.stop(this.audioContext.currentTime + 1);  // 1 second.
+        // oscillator.stop(this.audioContext.currentTime + 1);  // 1 second.
+        return {
+            stop() {
+                oscillator.stop();
+            }
+        }
     }
 }
