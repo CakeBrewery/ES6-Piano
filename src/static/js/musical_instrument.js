@@ -1,10 +1,11 @@
-let MusicalInstrument = (function() {
-    function playNote(note) {
-        let frequency = Tuning.getFrequency(note);
-        SoundSource.playFrequency(frequency);
+class MusicalInstrument {
+    constructor(soundSource, tuning) {
+        this.soundSource = soundSource;
+        this.tuning = tuning;
     }
 
-    return {
-        playNote
+    playNote(note) {
+        let frequency = this.tuning.getFrequency(note);
+        this.soundSource.playFrequency(frequency);
     }
-})();
+}
