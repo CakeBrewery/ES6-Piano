@@ -1,7 +1,6 @@
 function main() {
-
     document.querySelector('#play').addEventListener('click', function() {
-        playNote('Any note');
+        MusicalInstrument.playNote('Any note');
     });
 }
 

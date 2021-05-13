@@ -1,5 +1,11 @@
-let baseFrequency = 440;  // In Hz. aka A 440
+let Tuning = (function() {
+    let baseFrequency = 440;  // In Hz. aka A 440
 
-function getFrequency(note) {
-    return baseFrequency;  // tone-deaf, only returns one frequency. 
-}
+    function getFrequency(note) {
+        return baseFrequency;  // tone-deaf, only returns one frequency. 
+    }
+
+    return {
+        getFrequency
+    }
+})();
