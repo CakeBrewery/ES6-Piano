@@ -9,6 +9,7 @@ function main() {
     let piano = new Piano(soundSource, tuning);
 
     piano.mountKeyboard(document.querySelector('#keyboard'));
+    piano.enableMIDI();
 }
 
 window.onload = main;
