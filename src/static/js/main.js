@@ -1,7 +1,7 @@
 function main() {
 
-    let soundSource = new SoundSource()
-    let tuning = new Tuning()
+    let soundSource = new SimpleSoundSource();
+    let tuning = new ToneDeafTuning();
     let musicalInstrument = new MusicalInstrument(soundSource, tuning);
 
     document.querySelector('#play').addEventListener('click', function() {
