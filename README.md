@@ -1,5 +1,5 @@
-## Virtual Piano
+# Virtual Piano
 
-# To run
+## To run
 `npm install`
 `node src/server.js`
