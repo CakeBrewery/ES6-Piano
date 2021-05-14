@@ -1,5 +1,11 @@
 # Virtual Piano
 
+## Requirements
+Requires Node.js installed to run static server.
+
 ## To run
-`npm install`
-`node src/server.js`
+`cd ES6-Piano`  
+`npm install`  
+`node src/server.js` 
+
+Go to localhost:3000
