@@ -1,4 +1,5 @@
 # Virtual Piano
+Made this for a presentation! 
 
 ## Requirements
 Requires Node.js installed to run static server.
